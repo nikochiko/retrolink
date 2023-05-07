@@ -1,0 +1,4 @@
+requests
+flask
+python-dateutil
+git+https://github.com/pipalacademy/kutty.git#egg=kutty
