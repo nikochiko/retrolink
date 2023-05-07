@@ -23,7 +23,7 @@ def index():
         page << html.tag(
             "form",
             html.div(
-                html.input("URL", name="url", type_="text").add_class("form-control mb-3"),
+                html.input("URL", name="url", placeholder="URL", type_="text").add_class("form-control mb-3"),
                 html.button("Submit", type_="submit").add_class("btn btn-primary"),
                 class_="form-group",
             ),
