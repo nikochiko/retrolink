@@ -16,10 +16,7 @@ Clone this repository and install retrolink with pip.
 This has been tested with Python 3.10.
 
 ```
-$ git clone https://github.com/nikochiko/retrolink
-...
-$ cd retrolink
-$ python3 setup.py develop
+$ pip install git+https://github.com/nikochiko/retrolink
 $ rl version
 v0.1
 ```
