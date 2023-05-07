@@ -21,7 +21,7 @@ $ git clone https://github.com/nikochiko/retrolink
 $ cd retrolink
 $ python3 setup.py develop
 $ rl version
-v0.1
+0.1.0
 ```
 
 ### CLI
