@@ -12,11 +12,14 @@ of your webpage at the intended time.
 retrolink can be used as a CLI (for fixing links as makers) or as a
 webapp (for viewing webpages with broken/stale links).
 
-Install retrolink with pip.
+Clone this repository and install retrolink with pip.
+This has been tested with Python 3.10.
 
 ```
-$ pip install retrolink
+$ git clone https://github.com/nikochiko/retrolink
 ...
+$ cd retrolink
+$ python3 setup.py develop
 $ rl version
 v0.1
 ```
